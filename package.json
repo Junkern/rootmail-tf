@@ -1,0 +1,24 @@
+{
+  "name": "rootmail-tf",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Martin Wentzel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "aws-sdk-client-mock": "^2.1.1",
+    "aws-sdk-client-mock-jest": "^2.1.1",
+    "esbuild": "^0.17.19",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.332.0",
+    "@aws-sdk/client-ssm": "^3.332.0",
+    "luxon": "^3.3.0",
+    "mailparser": "^3.6.4"
+  }
+}
